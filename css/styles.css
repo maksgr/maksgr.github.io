@@ -32,3 +32,8 @@ ul {
     margin-top: 30px;
     margin-left: 160px;
 }
+.line {
+    border-left: 2px solid #ccc; /* Параметры линии */
+    /*margin-left: 20px; !* Отступ слева *!*/
+    padding-left: 30px; /* Расстояние от линии до текста */
+}
