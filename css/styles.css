@@ -37,3 +37,12 @@ ul {
     /*margin-left: 20px; !* Отступ слева *!*/
     padding-left: 30px; /* Расстояние от линии до текста */
 }
+#footer {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0;
+    padding: 20px;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
