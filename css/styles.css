@@ -2,17 +2,18 @@
     border-radius: 4px;
 }
 .titleText {
+    margin-top: 100px;  /* Indent from above */
+    padding-top: 100px;  /* Indent on the left */
     color: #FFFFFF;
-    margin-top: 100px;
 }
 
 ul {
-    margin-left: 0; /* Отступ слева в браузере IE и Opera */
-    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-    margin-left: 18px;
+    padding-left: 0; /* Indent on the left for Firefox, Safari, Chrome */
+    margin-left: 18px; /* Indent on the left */
 }
 .me {
-    margin-top: 30px;
+    margin-top: 60px;  /* Indent from above */
+    padding-top: 60px;  /* Indent on the left */
     color: #FFFFFF;
 }
 .paddingTop {
@@ -25,20 +26,22 @@ ul {
     position: relative;
 }
 .polaroid img {
-    border: 5px solid #fafafa;
-    border-top-width: 5px;
-    border-bottom-width: 5px;
+    border: 1px solid #fafafa;
     border-radius: 50%;
     margin-top: 30px;
     margin-left: 160px;
 }
 .line {
-    border-left: 2px solid #ccc; /* Параметры линии */
-    /*margin-left: 20px; !* Отступ слева *!*/
-    padding-left: 30px; /* Расстояние от линии до текста */
+    border-left: 3px solid #ccc; /* Parallel line */
+    padding-left: 30px; /* The distance from the line to the text */
+}
+.experience_row {
+    margin-top: 30px;  /* Indent from above */
+    padding-top: 30px;  /* Indent from above for Firefox, Safari, Chrome */
+    color: #FFFFFF;
 }
 #footer {
-    position: fixed; /* Фиксированное положение */
+    position: fixed;
     bottom: 0;
     padding: 20px;
     background: #000000;

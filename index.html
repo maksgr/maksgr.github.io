@@ -1,222 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Rusume</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Maksym Hrybun</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
-<body style="background-color: #000000;">
-    <div class="container" style="padding-bottom: 200px;">
-        <div class="row title">
+<body style="background-color: #000;">
+    <div class="container-fluid">
+        <!-- Title Section -->
+        <div class="container px-4 text-center">
+          <div class="row gx-5">
             <div class="col">
                 <div class="polaroid">
-                    <img src="./img/my_photo.JPG"  width="250" height="230"  alt="avatar"/>
+                    <img src="./img/my_photo.JPG" width="250" height="230" alt="avatar">
                 </div>
             </div>
-            <div class="col titleText">
-                <h1>Hrybun Maksym</h1>
-                <h5>Python and React Native Developer</h5>
+            <div class="col titleText textColor">
+                <h1>Maksym Hrybun</h1>
+                <h5>Software Engineer</h5>
             </div>
+          </div>
         </div>
-        <div class="row me">
-            <div class="col">
+
+         <!-- About Me Section -->
+        <div class="container text-center">
+            <div class="row me textColor">
                 <h3 style="margin-bottom: 20px;">ABOUT ME</h3>
-                <p class="lead">I am both Web Developer, Mobile App Developer and QA Tester.
-                                I able to learn new technologies and challenging concepts quickly and implement them.
-                                I’m eager to work with full dedication and looking forward to every opportunity to make a project better.
-                                I have experience developing web apps using Django framework, Odoo 6, 13-14 versions,
-                                mobile application use technologies such as React Native and also testing web/mobile apps and games via Appium/Selenium (coding in Python).
-                                I am a benevolent, professional, service oriented person and I carry out all the work I am entrusted with caution and dedication.</p>
+                <p class="lead">
+                    Results-driven and motivated Software Engineer with demonstrated experience in improving software performance, testing and updating existing software, and developing new software functionalities.
+                    Knowledgeable in web development. I have experience with Python, GO, React, Kubernetes, Docker, MQTT, Odoo, PostgreSQL.
+                </p>
             </div>
         </div>
-        <div class="progress border" style="height:2px">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me">
-            <div class="col-md-8">
-                <h3 style="margin-bottom: 20px;">EDUCATION</h3>
-                <samp><a class="lead" style="text-decoration: none; color: hsl(0, 100%, 100%);" href="http://admission.lnu.edu.ua/">National University named after Ivan Franko</a></samp>
-                <p class="lead paddingTop"><samp><a style="text-decoration: none; color: hsl(0, 100%, 100%);" href="http://ami.lnu.edu.ua/en/">Faculty of Applied Mathematics and Informatics</a></samp></p>
-                <p class="lead">2016 - Present</p>
+
+        <!-- Dataweb Global Group -->
+        <div class="container text-center">
+            <div class="row">
+                <h3 style="color: #fafafa; margin-top: 30px; padding-top: 30px;">EXPERIENCE</h3>
+                <div class="row experience_row">
+                    <div class="col">
+                        <h5>Dataweb Global Group</h5>
+                        <samp>Software Engineer</samp>
+                        <br/>
+                        <samp>Aug 2022 - Present</samp>
+                        <br/>
+                        <samp>Lviv</samp>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://datawebglobal.com/en/" style="text-decoration: none; color: dodgerblue">Dataweb Global Group</a> uses high-quality hardware for cloud solutions and provides a wide range of services for the development of IT infrastructure for business.
+                        One of these solutions is Kubernetes. I am developing <a target="_blank" href="https://websa.advancedhosting.com/kubernetes" style="text-decoration: none; color: dodgerblue">Kubernetes</a> for a quick and easy deployment of applications for our clients.
+                    </div>
+                </div>
+                <hr class="border" style="margin-top: 30px">
+                <!-- SmartTek Solutions -->
+                <div class="row experience_row">
+                    <div class="col">
+                        <h5>SmartTek Solutions</h5>
+                        <samp>Python Developer & DevOps Engineer</samp>
+                        <br/>
+                        <samp>Jul 2020 - Aug 2022</samp>
+                        <br/>
+                        <samp>Lviv</samp>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://smarttek.solutions" style="text-decoration: none; color: dodgerblue">SmartTek Solutions</a> is a company that provides services for the development of IT infrastructure for businesses.
+                        One of these solutions is <a target="_blank" href="https://smarttek.solutions/services/odoo/" style="text-decoration: none; color: dodgerblue">ERP (Odoo)</a>. I am developing new modules and customizing existing ones for business needs.
+                    </div>
+                </div>
+                <hr class="border" style="margin-top: 30px">
+                <!-- Enapps Ltd -->
+                <div class="row experience_row">
+                    <div class="col">
+                        <h5>Enapps Ltd</h5>
+                        <samp>Python Developer</samp>
+                        <br/>
+                        <samp>Sep 2019 - Sep 2020</samp>
+                        <br/>
+                        <samp>Lviv</samp>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://enapps.com" style="text-decoration: none; color: dodgerblue">Enapps Ltd</a> is a company that provides services for the development of IT infrastructure for businesses.
+                        One of these solutions is ERP. I am developing new modules and customizing existing ones for business needs.
+                    </div>
+                </div>
+                <hr class="border" style="margin-top: 30px">
+                <!-- DynamicBox Studio -->
+                <div class="row experience_row">
+                    <div class="col">
+                        <h5>DynamicBox Studio</h5>
+                        <samp>Software Engineer</samp>
+                        <br/>
+                        <samp>May 2019 - Aug 2019</samp>
+                        <br/>
+                        <samp>Lviv</samp>
+                    </div>
+                    <div class="col">
+                        <a target="_blank" href="https://dynamicbox.net" style="text-decoration: none; color: dodgerblue">DynamicBox Studio</a> is a company that development of VR, mobile, and PC games.
+                        We both deal with the development of our own games, as well as provide a range of work-for-hire services.
+                        <br/>
+                        I am developing a mobile application for sports children's school Fenerbahçe.
+                    </div>
+                </div>
+                <hr class="border" style="margin-top: 30px">
+                <!-- Communa -->
+                <div class="row experience_row">
+                    <div class="col">
+                        <h5>Self-Employed</h5>
+                        <samp>Software Engineer</samp>
+                        <br/>
+                        <samp>Oct 2018 - Jan 2019</samp>
+                        <br/>
+                        <samp>Lviv</samp>
+                    </div>
+                    <div class="col">
+                        I am developing a CRM system for a coworking.
+                        The system is designed to automate the work of the coworking.
+                    </div>
+                </div>
             </div>
-            <div class="col">
-                <h3 style="margin-left: 15px; margin-bottom: 20px;">CONTACT</h3>
-                <ul>
-                    <li style="list-style-type: none;">
-                        <img src="./img/phone-28-24.png" alt="">
-                        <em class="lead" style="margin-left: 5px;">+ 380 96 521 1764</em>
+        </div>
+
+        <div class="container text-center">
+            <div class="row me textColor">
+                <h3 style="color: #fafafa">EDUCATION</h3>
+                <div class="row experience_row">
+                    <div class="col">
+                        <samp><a href="http://admission.lnu.edu.ua/" style="text-decoration: none; color: hsl(0, 100%, 100%);">National University named after Ivan Franko</a></samp>
+                        <p class="paddingTop"><samp><a href="http://ami.lnu.edu.ua/en/" style="text-decoration: none; color: hsl(0, 100%, 100%);">Faculty of Applied Mathematics and Informatics</a></samp></p>
+                        <p>2016 - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row me" style="margin-bottom: 90px">
+                <h3 style="color: #fafafa">CONTACT</h3>
+                <ul class="list-inline experience_row">
+                    <li class="list-inline-item">
+                        <img src="./img/skype-24.png" alt=""> maksgribun
                     </li>
-                    <li style="list-style-type: none; margin-top: 12px;">
-                        <img src="./img/message-outline-24.png" alt="">
-                        <em class="lead" style="margin-left: 10px;">maksgribun@gmail.com</em>
+                    <li class="list-inline-item">
+                        <img src="./img/phone-28-24.png" alt=""> + 380 96 521 1764
                     </li>
-                    <li style="list-style-type: none; margin-top: 12px;">
-                        <img src="./img/skype-24.png" alt="">
-                        <em class="lead" style="margin-left: 10px;">maksgribun</em>
+                    <li class="list-inline-item">
+                        <img src="./img/message-outline-24.png" alt=""> maksgribun@gmail.com
                     </li>
-                    <li style="list-style-type: none; margin-top: 12px;">
-                        <img src="./img/worldwide-location-24.png" alt="">
-                        <em class="lead" style="margin-left: 10px;">Ukraine, Lviv</em>
-                    </li>
-                    <li style="list-style-type: none; margin-top: 12px;">
+                    <li class="list-inline-item">
                         <img src="./img/linkedin-3-24.png" alt="">
-                        <em class="lead" style="margin-left: 10px;"><a style="text-decoration: none; color: hsl(0, 100%, 100%);" href="https://www.linkedin.com/in/hrybun/"> My Profile</a></em>
+                        <a href="https://www.linkedin.com/in/hrybun/" style="text-decoration: none;">Hrybun</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="progress border" style="height:2px; margin-top: 20px;">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me container1">
-            <div class="col">
-                <h2>EXPERIENCE</h2>
-                <samp class="lead">Full-stack Developer(Python, JS)</samp>
-                <div id="carouselExampleSlidesOnly" class="carousel slide paddingTop" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/1.jpeg" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/c2.jpeg" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/3.jpeg" alt="Third slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/4.jpeg" alt="Third slide">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div>
-                    <samp class="lead" style="margin-left: 200px;">Oct 2018 - Jan 2019</samp>
-                    <p class="lead" style="margin-top: 15px; margin-left: 200px;"><samp>Lviv, Ukraine</samp></p>
-                    <p class="lead" style="margin-left: 200px;"><samp>Freelance</samp></p>
-                    <p class="lead" style="margin-left: 200px;"><samp>Description :</samp></p>
-                    <ul style="margin-left: 217px;">
-                        <li class="lead">Creating CRM Co-working System </li>
-                        <li class="lead" style="margin-top: 10px;">Timer for each type of card </li>
-                        <li class="lead" style="margin-top: 10px;">Reports </li>
-                        <li class="lead" style="margin-top: 10px;">Data storage of services and prices for them</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="progress border" style="height:2px; margin-top: 50px;">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me">
-            <div class="col">
-                <samp class="lead">QA Appium Training</samp>
-                <div class="embed-responsive embed-responsive-16by9 paddingTop">
-                    <iframe src="https://www.youtube.com/embed/L5aITaHdS1A" width="560" height="315"></iframe>
-                </div>
-            </div>
-            <div class="col">
-                <samp class="lead" style="margin-left: 200px;">Jan 2019 - Feb 2019</samp>
-                <p class="lead" style="margin-top: 15px; margin-left: 200px;"><samp>Lviv, Ukraine</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>DynamicBox Studio</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>Description :</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>I wrote automated tests for mobile games being developed by the company. They were coded in Python and run using Appium, to run them on actual devices.</samp></p>
-            </div>
-        </div>
-        <div class="progress border" style="height:2px; margin-top: 50px;">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me">
-            <div class="col">
-                <samp class="lead">Full-stack Developer(Python, React Native)</samp>
-                <div id="carouselExampleSlidesOnlyTwo" class="carousel slide paddingTop" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/photo_2019-08-05 21.57.16.jpeg" alt="Screen One">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/photo_2019-08-05 21.57.21.jpeg" alt="Screen Two">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="./img/photo_2019-08-05 21.57.21.jpeg" alt="Screen Three">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <samp class="lead" style="margin-left: 206px;">May 2019 - September 2019</samp>
-                <p class="lead" style="margin-top: 15px; margin-left: 206px"><samp>Lviv, Ukraine</samp></p>
-                <p class="lead" style="margin-left: 206px;"><samp>DynamicBox Studio</samp></p>
-                <p class="lead" style="margin-left: 206px;"><samp>Description :</samp></p>
-                <ul style="margin-left: 223px;">
-                    <li class="lead" style="margin-top: 10px;">Python 3.7 </li>
-                    <li class="lead" style="margin-top: 10px;">Flask API Server</li>
-                    <li class="lead" style="margin-top: 10px;">MySql 5.7</li>
-                    <li class="lead" style="margin-top: 10px;">React Native</li>
-                    <li class="lead" style="margin-top: 10px;">Redux-Offline</li>
-                </ul>
-            </div>
-        </div>
-        <div class="progress border" style="height:2px; margin-top: 50px;">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me">
-            <div class="col">
-                <samp class="lead">Python Developer</samp>
-                <div id="carouselExampleSlidesOnlyTwo" class="carousel slide paddingTop" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/enapps.png" alt="Screen One">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <samp class="lead" style="margin-left: 206px;">Sep 2019 - Sep 2020</samp>
-                <p class="lead" style="margin-top: 15px; margin-left: 206px"><samp>Lviv, Ukraine</samp></p>
-                <p class="lead" style="margin-left: 206px;"><samp>Enapps Ltd</samp></p>
-                <p class="lead" style="margin-left: 206px;"><samp>Description :</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>Development unique Business Management Software Solution otherwise known as an ERP.</samp></p>
-                <ul style="margin-left: 223px;">
-                    <li class="lead" style="margin-top: 10px;">Odoo (customized to himself)</li>
-                    <li class="lead" style="margin-top: 10px;">PostgreSQL 9.6</li>
-                    <li class="lead" style="margin-top: 10px;">JS</li>
-                </ul>
-            </div>
-        </div>
-        <div class="progress border" style="height:2px; margin-top: 50px;">
-            <div class="progress-bar bg-white" style="width:100%"></div>
-        </div>
-        <div class="row me">
-            <div class="col">
-                <samp class="lead">Python Developer</samp>
-                <div id="carouselExampleSlidesOnlyTwo" class="carousel slide paddingTop" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="./img/n-dev.png" alt="Screen One">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <samp class="lead" style="margin-left: 200px;">Oct 2019 - Present</samp>
-                <p class="lead" style="margin-top: 15px; margin-left: 200px;"><samp>Lviv, Ukraine</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>N-Development</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>Description :</samp></p>
-                <p class="lead" style="margin-left: 200px;"><samp>Since our founding, we have supported small to middle companies with the introduction and implementation of ERP projects from our two locations in Ukraine.</samp></p>
-                <ul style="margin-left: 223px;">
-                    <li class="lead" style="margin-top: 10px;">Odoo 13, 14</li>
-                    <li class="lead" style="margin-top: 10px;">PostgreSQL 9.6, - 12</li>
-                    <li class="lead" style="margin-top: 10px;">JS</li>
-                </ul>
-            </div>
-        </div>
+
     </div>
     <div id="footer">
-        &copy; Hrybun Maksym
+        &copy; Maksym Hrybun
     </div>
 </body>
 </html>
